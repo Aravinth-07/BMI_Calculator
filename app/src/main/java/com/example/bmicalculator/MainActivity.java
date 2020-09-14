@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i=new Intent(MainActivity.this,home_screen.class);
+                Intent i=new Intent(MainActivity.this,bmi_calculator.class);
                 startActivity(i);
             }
         },SPLASH_TIME_OUT);

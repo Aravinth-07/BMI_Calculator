@@ -21,6 +21,17 @@ public class bmi_calculator extends AppCompatActivity {
 
     }
 
+    @Override
+    public void onBackPressed() {
+            Intent a = new Intent(Intent.ACTION_MAIN);
+            a.addCategory(Intent.CATEGORY_HOME);
+            a.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(a);
+
+
+
+    }
+
     public void btnonclick(View view) {
         try {
             String height = e1.getText().toString();

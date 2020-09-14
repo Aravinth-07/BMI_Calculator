@@ -50,7 +50,6 @@ public class bmi_result extends AppCompatActivity {
             t1.setText("Your BMI is "+result+" ");
             t2.setText("Result : Obese");
         }
-
     }
 
     public void btnnext(View view) {

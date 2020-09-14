@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BMI and Age Calculator</string>
+    <string name="app_name">BMI Calculator</string>
     <string name="bmicalculator">BMI Calculator</string>
     <string name="agecalculator">AGE Calculator</string>
     <string name="calculatebmi">Calculate BMI</string>
